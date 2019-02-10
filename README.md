@@ -64,13 +64,13 @@ JEKYLL_ENV=production docker-compose run blog jekyll build
 
 * * *
 
-### Docker Compose Cleanup
+### docker-compose cleanup
 
 ```
 docker-compose down
 ```
 
-### Start Over
+### Start over
 
 This step will remove previous attempts (if any):
 
@@ -84,13 +84,13 @@ After running this step, you will need to recreate the site.
 
 * * *
 
-## Kubernetes / Docker Stack Alternative
+## Kubernetes / docker stack alternative
 
 This part is for advanced users who have kubernetes installed.
 
-You still need to run the step above to Create Site Locally
+You still need to run the step above to create a site locally
 
-## Docker Stack Serve
+## docker stack serve
 
 ```
 docker stack deploy -c docker-compose.yml blogstack
@@ -102,7 +102,7 @@ May default to kubernetes if installed, if not:
 docker stack deploy --orchestrator=kubernetes -c docker-compose.yml blogstack
 ```
 
-Open up a second terminal window:
+### Additional commands
 
 ```
 kubectl get all
