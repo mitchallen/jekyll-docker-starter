@@ -35,8 +35,8 @@ This will create two new folders:
 
 See also:
 
-* __blog-site/_posts__ - where you put new posts
-* __blog-site/_config.yml__ - change to the site config (build after change)
+* __blog-site/\_posts__ - where you put new posts
+* __blog-site/\_config.yml__ - change to the site config (build after change)
 
 ### Step 2 - Serve Site Locally
 
@@ -50,7 +50,7 @@ Browse to: http://localhost:4000/
 
 ## Build
 
-### Build after changing ./site/_config.yml
+### Build after changing ./site/\_config.yml
 
 ```
 docker-compose run blog jekyll build
