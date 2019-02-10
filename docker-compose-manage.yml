@@ -1,0 +1,10 @@
+version: '3'
+services:
+  blog-create:
+    command: jekyll new blog-site
+    image: jekyll/jekyll:latest
+    volumes:
+      - .:/srv/jekyll
+      - ./vendor/bundle:/usr/local/bundle
+    
+      
