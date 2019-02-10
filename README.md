@@ -58,7 +58,9 @@ docker-compose run blog jekyll build
 
 ### Generate a production build
 
+```
 JEKYLL_ENV=production docker-compose run blog jekyll build
+```
 
 * * *
 
