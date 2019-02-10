@@ -22,7 +22,7 @@ rm .gitignore
 
 ## Docker Compose
 
-### Step 1 - Create Site Locally
+### Step 1 - Create site
 
 ```
 docker-compose -f docker-compose-manage.yml run blog-create
@@ -38,7 +38,7 @@ See also:
 * __blog-site/\_posts__ - where you put new posts
 * __blog-site/\_config.yml__ - site config (build after change)
 
-### Step 2 - Serve Site Locally
+### Step 2 - Serve site on localhost
 
 ```
 docker-compose up 
