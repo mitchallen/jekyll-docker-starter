@@ -74,7 +74,7 @@ docker-compose down
 
 This step will remove previous attempts (if any):
 
-__WARNING: THIS WILL DELETE ANY POSTS OR CONFIG CHANGES YOU MADE.___
+__WARNING: THIS WILL DELETE ANY POSTS OR CONFIG CHANGES YOU MADE.__
 
 ```
 rm -rf blog-site && rm -rf vendor
